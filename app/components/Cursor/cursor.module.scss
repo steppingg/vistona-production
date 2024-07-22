@@ -1,0 +1,12 @@
+.cursor {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    border-radius: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    transform-origin: center;
+    transition: all 0.1s ease-out;
+}
