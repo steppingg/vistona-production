@@ -61,7 +61,7 @@ export default function BlurryCursor({
           //   filter: `blur(${isActive ? 30 : 0}px)`,
           transition: `height 0.3s ease-out, width 0.3s ease-out, filter 0.3s ease-out`,
         }}
-        className={`top-0 left-0 fixed flex items-center justify-center rounded-full #mix-blend-difference pointer-events-none bg-red-700 z-50`}
+        className={`top-0 left-0 fixed flex items-center justify-center rounded-full #mix-blend-difference pointer-events-none bg-[#B56540] z-50`}
         ref={circle}
       >
         {isActive ? (
